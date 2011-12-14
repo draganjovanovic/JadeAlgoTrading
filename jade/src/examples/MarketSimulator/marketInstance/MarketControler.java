@@ -31,7 +31,7 @@ public class MarketControler {
 		MarketAgent marketAgent = new MarketAgent();
 		//arketAgent.agent.orderBook.printTreeBids();
 		int i = 0;
-
+		/*
 		for (int r = 0 ; r <= 200 ; r++) {
 			
 		    int price = generator.nextInt(100) + 1;
@@ -40,6 +40,7 @@ public class MarketControler {
 		}
 
 		MarketAgent.agent.orderBook.orderBookOffers.printTree();
+		*/
 		
 		
 		/*System.out.println("///");

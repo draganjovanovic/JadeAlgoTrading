@@ -23,7 +23,7 @@ public class MarketGuiFrame {
 		marketFrame.setLayout(new GridLayout(1,1));
 		
 		orderBookGui = new OrderBookGui();
-		orderBookGui.setSize(300, 500);
+		orderBookGui.setSize(200, 700);
 		
 		render();
 	}

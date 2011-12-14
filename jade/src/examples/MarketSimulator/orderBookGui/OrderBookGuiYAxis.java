@@ -9,18 +9,18 @@ import java.awt.geom.Line2D;
 public class OrderBookGuiYAxis {
 
 	private Graphics2D g2d;
-	private Line2D.Double line;
+	private static Line2D.Double lineYAxis;
 	
 	public OrderBookGuiYAxis(Graphics g) {
 		
 		g2d = (Graphics2D) g;
-		line = new Line2D.Double(200, 0, 200, 700);
-		draw();
+		lineYAxis = new Line2D.Double(200, 0, 200, 700);
+		paintComponent();
 	}
 	
-	public void draw() {
+	public void paintComponent() {
 
-		g2d.draw(line);
+		g2d.draw(lineYAxis);
 	
 		Integer y = 70;
 		for (int i = 10; i < 700; i += 10) {
